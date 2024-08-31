@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: gray;
+}
+
+.whole{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.whole .container{
+  align-self: center;
+  width: 80%;
+  height: 500px;
+  margin-top: 25px;
+}
+
+.whole .container .vid{
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.whole .content{
+  margin-top: 10px;
+  color: antiquewhite;
+  padding: 15px;
+}
